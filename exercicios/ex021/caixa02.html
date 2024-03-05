@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gainsboro;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(113, 113, 113);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 12px;
+            box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.427);
+        }
+
+        article{
+            background-color: #cacaca;
+            padding: 5px;
+        }
+
+        #assuntos{
+            background-color: #a9a8a8;
+            text-align: center;
+            
+        }
+
+        article > aside{
+            background-color: #a9a8a8;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 8px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header><!-- Cabeçalho -->
+        <h1>Meu site</h1>
+        <nav><!-- Área de links-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main><!-- Conteúdo princípal-->
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article >
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non officia nihil autem reprehenderit earum! Rerum, ea voluptas quidem dolor sequi, magnam praesentium modi facere fugit dignissimos nemo blanditiis ipsum nobis!</p>
+                <aside>
+                    <p>Artigo por ...</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer><!-- Rodapé -->
+        <p>Desenvolvido de acordo com o Curso em Vídeo</p>
+    </footer>
+
+</body>
+</html>

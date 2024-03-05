@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Texto</title>
+    <!-- (Marcação de estilo de tags da página inteira)
+        <style>
+            mark{
+                background-color: green
+            }
+        </style>
+    -->
+</head>
+<body>
+    
+    <h1>Principais formatações</h1>
+
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase <b>temos um termo em negrito</b> usando a tag b <b>(não semântica).</b></p>
+    <p>Nessa frase, tenho um <strong>termo em destaque</strong> usando a tag strong (semântico).</p> <!--Usar essa tag para negrito-->
+
+    <h2>Itálico / Ênfase</h2>
+    <p>Nessa frase, temos um <i>termo em itálico</i> usando a tag i (não semântica).</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag Em (semântico).</p> <!--Usar essa tag para itálico-->
+    
+    <h2>Texto marcado</h2>
+    <p>Podemos criar tambêm um <mark style="background-color: lime;">texto marcado</mark> usando a tag Mark.</p> <!--Tag ainda não reconhecida pelo VS Code, mas pode usar--> <!-- Para alterações pontuais de estilo é mais interessante que use a tag Style (essa tag conta como CSS) do que alterar na folha de estilo(CSS)-->
+    <p>E no outro paragráfo, temos <mark>outro texto marcado</mark> no final.</p> <!-- Para alterar a tag Mark desse paragrafo junto ao do paragráfo anterior a tag style tem que ser definido no Head-->
+    
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p><!--Big é uma tag obsoleta--> <!-- A tag Small não está obsoleta pois há um sentido a ela, pois um texto em Small pode ser considerado algo menos importante mas que deve ser lido, como as letras menores em contratos-->
+    
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado com a tag Del.</p>
+    
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois com a tag Ins (Fica parecido com a tag u/em de <u>sublinhado</u> mas o significado é diferente).</p>
+    
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3, com a tag Sup</p>
+    
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O, com a tag Sub</p>
+</body>
+</html>

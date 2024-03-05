@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 1.21em;
+           /* 
+           Medidas Absolutas:
+            px, cm, mm, in (polegada), pt(ponto), pc(pica).
+           
+           Medidas Relativas:
+            em (Relativo a altura M da fonte), ex (relativo a altura X), rem (relativo a font do body ou *), vw, vh, %.
+            
+           em e px mais recomendados
+
+           Geralmente 16px = 1em
+           */
+           font-weight:  ;
+           /*
+            weight = peso
+
+            lighter normal bold bolder
+            100 200 ... 900
+            Não é todas as fontes que tem essas variações
+           */
+           font-style: ;
+           text-decoration: ;
+        }
+
+        h1{
+            /*
+            shorthand font
+                Ordem: font-style, font-weight, font-size, font-family
+
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                font-size: 3em;
+                font-style: italic;
+            */
+            font: italic bolder 3em Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam exercitationem veniam excepturi explicabo at quibusdam. Ab quae, modi, sed debitis suscipit, quo quibusdam ad sequi voluptatum voluptas saepe nemo reiciendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta totam adipisci iste unde dolorum. Quia, debitis similique nemo omnis dignissimos suscipit amet quo corporis illum veniam nihil nesciunt et provident.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem odio vel, saepe autem libero doloribus animi harum at, expedita dignissimos, sapiente totam tempora assumenda vitae ratione repellat minima! Iste, et?</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident iusto libero praesentium, totam sequi maiores in voluptate eos repellendus? Minima, nemo ratione. Asperiores dicta similique odio hic necessitatibus ratione repudiandae?</p>
+</body>
+</html>

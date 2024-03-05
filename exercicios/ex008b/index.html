@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElement.ById('teste')</code> em JavaScript.</p><!-- Coloca em letra mono-espaçada-->
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else;
+        print(f'O número {num} é ÍMPAR)
+    print('Fim do programa')
+        </code>
+    </pre> <!-- Code não deixa indentado, para identar precisa usar a tag Pre--> <!-- a tag pre faz com que o texto seja apresentada da forma que foi escrito (quebra de linha, identação etc)-->
+
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>. A tag q coloca as aspas</p>
+
+    <h2>Citações completas</h2>
+    <p>Segundo Maurício Samy, no seu livro Fundamentos de HTML5 e CSS3: </p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">
+        Hipertexto é todo texto inserido em um documento para a web e que tem como principal característica a possibilidade de se interligar a outros documentos web.
+    </blockquote> <!-- O cite não vai alterar nada visualmente mas vai fazer com que o navegador e as ferramentas de busca saibam da onde vem a frase e ajuda a manter os direitos dela-->
+    
+    <h2>Abrevições</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Languege">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+</body>
+</html>
