@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&family=Passion+One:wght@400;700;900&display=swap');
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion one', cursive;
+    --font3: 'Kavivanar', cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,6 +16,7 @@
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--font1);
 }
 
 header{
@@ -20,6 +29,12 @@ header h1{
     padding-top: 50px;
     /*text-transform: uppercase; Deixa maiusculo*/
     font-variant: small-caps; /*Maiusculo, mas mais leve*/
+    font-family: var(--font2);
+    font-size: 8vw;
+}
+
+header p{
+    padding-bottom: 50px;
 }
 
 a{
@@ -37,6 +52,8 @@ section{
     padding-bottom: 10vh;
     line-height: 1.8em;
     padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3.5vw;
 }
 
 .normal{
