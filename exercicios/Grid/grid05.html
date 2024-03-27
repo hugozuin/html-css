@@ -3,35 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Desenhando" layouts grid</title>
+    <title>Nomes de linha</title>
     <style>
         .wrapper{
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: [site-start] repeat(5, 1fr) [site-end]; 
             grid-auto-rows: 200px;
             grid-gap: .5rem;
-
-            grid-template-areas: 
-                "header header header header"
-                "aside   main   main   main"
-                "aside footer footer footer"
-            ;
         }
 
         header{
-            grid-area: header;
-        }
-
-        main{
-            grid-area: main;
-        }
-
-        aside{
-            grid-area: aside;
-        }
-
-        footer{
-            grid-area: footer;
+            /*
+            grid-column: pizza / sorvete;
+            */
+            grid-column: site;
         }
 
         .wrapper *{
