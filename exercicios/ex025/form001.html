@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+
+    <form action="cadastro.php" method="post" > <!-- action = exportar dos dados para o back-end. method = get: mostra dos dados na url, post: não mostra na url (mas mostra no inspecionar)-->
+        <p><label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" autocomplete="off"></p> <!-- autocomplete off = faz com que o navegador não recomende respostas-->
+        <p><label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
